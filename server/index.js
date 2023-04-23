@@ -24,7 +24,7 @@ const urlSchema = new mongoose.Schema({
 const Url = mongoose.model('Url', urlSchema);
 
 app.get('/', async (req, res) =>{
-    res.send("HELLO TO MY APP!");
+    res.send("WELCOME TO MY APP!");
 });
 
 // Handle POST request to create a short URL
